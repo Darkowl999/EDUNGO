@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/movil_qndroid__1"
+    tools:context=".Main_Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="@font/seguibli"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:text="ELIGE TU PERFIL" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <!---Inicion layout Auxiliar-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                android:layout_width="382dp"
+                android:layout_height="415dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="90dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="40dp">
+
+                <ImageView
+                    android:layout_width="382dp"
+                    android:layout_height="415dp"
+                    android:src="@drawable/auxiliar_user">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/IngresoAux"
+                    android:layout_width="314dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#4E14CC"
+                    app:cardCornerRadius="30dp">
+
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="28dp"
+                        android:fontFamily="@font/seguibli"
+                        android:text="AUXILIAR" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <!---Fin layout Auxiliar-->
+
+            <!---Inicion layout Estudiante -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="382dp"
+                    android:layout_height="415dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="90dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="40dp">
+
+                    <ImageView
+                        android:layout_width="382dp"
+                        android:layout_height="415dp"
+                        android:src="@drawable/estudiante_user">
+
+                    </ImageView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/IngresoEstudiante"
+                    android:layout_width="314dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#4E14CC"
+                    app:cardCornerRadius="30dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="28dp"
+                        android:fontFamily="@font/seguibli"
+                        android:text="ESTUDIANTE" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <!---Fin layout Estudiante-->
+
+
+            <!---Inicio layout Docente-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="382dp"
+                    android:layout_height="415dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="90dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="40dp">
+
+                    <ImageView
+                        android:layout_width="382dp"
+                        android:layout_height="415dp"
+                        android:src="@drawable/docente_user">
+
+                    </ImageView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/IngresoDocente"
+                    android:layout_width="314dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#4E14CC"
+                    app:cardCornerRadius="30dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="28dp"
+                        android:fontFamily="@font/seguibli"
+                        android:text="DOCENTE" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <!---Fin layout Docente-->
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

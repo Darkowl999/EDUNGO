@@ -1,0 +1,2 @@
+rootProject.name='Edungo'
+include ':app'

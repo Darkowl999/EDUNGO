@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/movil_qndroid__1"
+    tools:context=".Login_Activity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        app:srcCompat="@drawable/simple_logo" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFFF"
+        android:ems="10"
+        app:cardBackgroundColor="#FFF"
+        app:cardCornerRadius="39dp"
+        app:cardElevation="80dp">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="73dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="4dp"
+            app:srcCompat="@drawable/usuariootro" />
+
+        <EditText
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/seguibli"
+            android:ems="10"
+            android:text="CORREO ELECTRONICO"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFFF"
+        android:ems="10"
+        app:cardBackgroundColor="#FFF"
+        app:cardCornerRadius="39dp"
+        app:cardElevation="80dp">
+
+
+        <ImageView
+
+            android:layout_width="73dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/candadootro" />
+
+        <EditText
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:fontFamily="@font/seguibli"
+            android:hint="CONTRASEÑA"
+            android:inputType="textPersonName"
+            android:text="CONTRASEÑA"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/seguibli"
+        android:textColor="#FFF"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="LOGIN" />
+    <TextView
+        android:id="@+id/btnRegistrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFF"
+        android:fontFamily="@font/seguibli"
+        android:textStyle="bold"
+        android:text="REGISTRATE" />
+
+
+
+
+
+</LinearLayout>

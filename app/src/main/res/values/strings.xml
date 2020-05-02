@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Edungo</string>
+    <string name="iniciarsesion">LOGIN</string>
+    <string name="registrarse">REGISTRATE</string>
+    <string name="correoElectronico">CORREO ELÉCTRONICO</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="apellidos">APELLIDOS</string>
+    <string name="nombreuser">NOMBRE DE USUARIO</string>
+    <string name="email">EMAIL</string>
+    <string name="direccion">DIRECCION</string>
+    <string name="contraseñaa">CONTRASEÑA</string>
+    <string name="confirmecontra">CONFIRME CONTRASEÑA</string>
+    <string name="telefono">TELEFONO</string>
+    <string name="notaFinal">SE DEBE BRINDAR DATOS CON LA MAYOR EXACTITUD POSIBLE PARA PODER TENER LA MEJOR EXPERIENCIA DENTRO DEL MUNDO EDUNGO</string>
+
+</resources>
